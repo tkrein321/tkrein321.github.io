@@ -61,7 +61,8 @@
     background-color: black;
 }
 .board {
-    width: min-content;
+    width: 100%;
+    max-width: 450px;
 }
 
 .board .row {
