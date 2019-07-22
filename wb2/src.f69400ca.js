@@ -49517,6 +49517,7 @@ function (_super) {
 
     var game = this.props.game;
     return React.createElement(_HBox.HBox, {
+      className: 'row',
       key: rowNo
     }, row.map(function (tileData, colNo) {
       return _this.renderCol(rowNo, colNo, tileData);
@@ -49711,7 +49712,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55502" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56466" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
